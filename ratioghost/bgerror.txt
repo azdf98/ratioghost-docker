@@ -1,0 +1,32 @@
+
+
+Mon Aug 04 22:19:15 CEST 2025 (19870)
+Background error: invalid command name "console"
+
+invalid command name "console"
+    while executing
+"console show"
+    invoked from within
+".#menubar.#menubar#help invoke active"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke active]"
+    (procedure "tk::MenuInvoke" line 50)
+    invoked from within
+"tk::MenuInvoke .#menubar.#menubar#help 1"
+    (command bound to event)
+
+
+
+
+Wed Aug 06 21:07:26 CEST 2025 (97743)
+Background error: can not find channel named "sock55d6d2dba490"
+
+can not find channel named "sock55d6d2dba490"
+    while executing
+"close $local"
+    (procedure "read_first" line 69)
+    invoked from within
+"read_first 911 sock55d6d2dba490 0"
+
+
